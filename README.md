@@ -81,7 +81,7 @@ This command will install the Axios package and its dependencies in our project.
 ## npm install json-server
 we need to install JSON Server, a tool to mock REST APIs quickly, by running npm install json-server in our terminal.
 This command will install JSON Server globally on our system, allowing us to use it from anywhere in our command line interface. After installation, we can start using JSON Server to serve our JSON data as a RESTful API.
-## npx json-server Backend data/db.json --watch --port 6000 
-       or 
+
+## npx json-server Backend data/db.json --watch --port 6000 /
 ## npx json-server Data/data.json --watch --port 7000
 In a React login form, two backend databases are used: one hosted on port 6000, containing data from data/db.json, and another hosted on port 7000, containing data from Data/data.json.
